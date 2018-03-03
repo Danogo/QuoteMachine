@@ -9,7 +9,7 @@ var quotes = [
   /*Mark Twain*/
   '\"The secret of getting ahead is getting started.\"',' - Mark Twain',
   /*Eleanor Roosevelt*/
-  '\"Great minds discuss ideas; average minds discuss events; small minds discuss people.\"',' - Eleanor Roosevelt',
+  '\"Great minds discuss ideas%3b average minds discuss events%3b small minds discuss people.\"',' - Eleanor Roosevelt',// %3b is escape for semicolon in url (%hexSignValue)
   /*Winston Churchill*/
   '\"Success is not final, failure is not fatal: it is the courage to continue that counts.\"',' - Winston Churchill',
   /*Christopher Hitchens*/
@@ -23,7 +23,7 @@ var quotes = [
   '\"We are all atheists about most of the gods that humanity has ever believed in. Some of us just go one god further.\"',' - Richard Dawkins',
   '\"I am against religion because it teaches us to be satisfied with not understanding the world.\"',' - Richard Dawkins',
   /*Steven Weinberg*/
-  '\"With or without religion, good people can behave well and bad people can do evil; but for good people to do evil - that takes religion.\"',' - Steven Weinberg',
+  '\"With or without religion, good people can behave well and bad people can do evil%3b but for good people to do evil - that takes religion.\"',' - Steven Weinberg',
   /*Ricky Gervais*/
   '\"I think religion\'s greatest trick wasn\'t convincing some people that there was a God, he was all powerful... It was convincing everyone else that you couldn\'t ridicule the idea.\"',' - Ricky Gervais',
   '\"Just because you\'re offended, doesn\'t mean you\'re right.\"',' - Ricky Gervais',
