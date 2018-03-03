@@ -50,6 +50,7 @@ btnEl.addEventListener('click', function() {            //click event
   last = randNr;
   var tweetQuote = "https://twitter.com/intent/tweet?text=" + quotes[last] + quotes[last+1];
   document.getElementById("link-tweet").setAttribute('href', tweetQuote);
-  document.getElementsByClassName("quote-text")[0].innerHTML = quotes[randNr];
+  var correctQuote = quotes[randNr].replace(/%3b/g, ';');
+  document.getElementsByClassName("quote-text")[0].innerHTML = correctQuote;
   document.getElementsByClassName("quote-author")[0].innerHTML = quotes[randNr+1];
 }, false);
