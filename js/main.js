@@ -42,9 +42,9 @@ var quotesTrash = [];
 /*------quote function---------*/
 var btnEl = document.querySelector('.btn-quote');
 btnEl.addEventListener('click', function() { //click event
-  if (quotes.length >= 2) {
+  if (quotes.length >= 2) {     //fetch quotes until there are at least 2 elements in array
     getRandomQuote();
-  } else {
+  } else {                      //otherwise reset quotes
     quotes = quotesTrash;
     quotesTrash = [];
     getRandomQuote();
